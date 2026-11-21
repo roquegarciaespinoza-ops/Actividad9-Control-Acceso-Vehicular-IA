@@ -1,0 +1,5 @@
+condicion,TP,FN,FP,TN,TPR,FPR
+Dia,97,3,3,97,0.97,0.03
+Noche,88,12,4,96,0.88,0.04
+Lluvia,93,7,4,96,0.93,0.04
+Angulo oblicuo,85,15,5,95,0.85,0.05
