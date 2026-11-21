@@ -4,16 +4,20 @@
 
 Caso académico **simulado** para analizar escalabilidad, optimización FinOps y gobernanza responsable de una solución de visión computacional para accesos vehiculares.
 
-## Entregables publicados
+## Entregables publicados — versión refinada
 
 | Entregable | Archivo |
 |---|---|
-| Reporte técnico (PDF) | [Consultar reporte](reporte/Reporte_Tecnico_Actividad9.pdf) |
-| Anexo técnico (Excel) | [Consultar anexo](anexos/Anexo_Tecnico_Actividad9.xlsx) |
+| Reporte técnico principal (PDF) | [Consultar](reporte/Reporte_Tecnico_Actividad9.pdf) |
+| Complemento de auditoría (Word) | [Consultar](reporte/Complemento_Auditoria_Actividad9.docx) |
+| Complemento de auditoría (PDF) | [Consultar](reporte/Complemento_Auditoria_Actividad9.pdf) |
+| Anexo técnico original (Excel) | [Consultar](anexos/Anexo_Tecnico_Actividad9.xlsx) |
+| Complemento TCO y SLA (Excel) | [Consultar](anexos/Complemento_TCO_SLA_Actividad9.xlsx) |
+| Complemento TCO y SLA (PDF) | [Consultar](anexos/Complemento_TCO_SLA_Actividad9.pdf) |
 | Arquitectura actual hipotética (PNG) | [Ver diagrama](arquitectura/arquitectura_actual.png) |
 | Arquitectura híbrida propuesta (PNG) | [Ver diagrama](arquitectura/arquitectura_propuesta.png) |
 
-Los cuatro archivos están almacenados en este repositorio. El ZIP académico consolidado se distribuye por separado para entrega en la plataforma educativa; **no está publicado en este repositorio**.
+**Estado:** los ocho archivos binarios de la tabla están publicados en la rama principal. El ZIP académico consolidado se distribuye por separado para entrega en la plataforma educativa y **no está publicado en este repositorio**.
 
 ## Documentación y evidencias
 
@@ -21,12 +25,15 @@ Los cuatro archivos están almacenados en este repositorio. El ZIP académico co
 - [Arquitectura y gobernanza](actividad9/ARQUITECTURA_Y_GOBERNANZA.md)
 - [Metodología de simulación](actividad9/METODOLOGIA_SIMULACION.md)
 - [Validación y hallazgos](actividad9/VALIDACION_FINAL.md)
+- [Registro de mejoras de la versión refinada](actividad9/MEJORAS_VERSION_REFINADA.md)
 - [Costos simulados (CSV)](actividad9/evidencias/costos_simulados.csv)
 - [Rendimiento modelado (CSV)](actividad9/evidencias/rendimiento_modelado.csv)
 - [Fairness sintético (CSV)](actividad9/evidencias/fairness_sintetico.csv)
 
 ## Alcance y limitaciones
 
-El diseño actual es una referencia hipotética, no una instalación inspeccionada. Los costos y las métricas son simulados; no son cotizaciones, benchmarks medidos ni evidencia de cumplimiento de SLA.
+La arquitectura base es hipotética, no una instalación inspeccionada. Los costos y métricas son simulados; no son cotizaciones, benchmarks medidos ni evidencia de cumplimiento de SLA.
 
-Las tasas sintéticas de falsos positivos y la brecha entre condiciones de captura superan los umbrales propuestos. **No se recomienda autorizar aperturas automáticas de barreras con estos resultados**. Se requieren pruebas independientes, revisión humana, controles de seguridad física y análisis jurídico antes de cualquier despliegue real.
+El análisis sintético reporta tasas de falsos positivos de 3–5 % frente al objetivo propuesto de 0.5 % y una brecha de TPR de 12 puntos porcentuales frente al objetivo de 5 pp. **No se recomienda autorizar aperturas automáticas de barreras con estos resultados**. Se requieren pruebas independientes, revisión humana, controles de seguridad física y análisis jurídico antes de cualquier despliegue real.
+
+La publicación completa de los archivos no constituye una garantía de calificación académica.
